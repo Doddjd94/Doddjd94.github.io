@@ -1,8 +1,10 @@
     body {
-    background-image: url("pic.jpg");
+    background-image: url("background101.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
     }
+    
 
     .footer {
      text-align: center;
