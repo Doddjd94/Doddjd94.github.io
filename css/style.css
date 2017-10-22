@@ -15,7 +15,7 @@
     font-weight: bold;
     font-size: 20px;
     padding-top: 1.5cm;
-    padding-bottom: 1.5cm;
+    padding-bottom: 22rem;
     line-height: .60cm;
     }  
 
@@ -82,7 +82,7 @@
                 text-align: center;
                 padding-left: 3cm;
                 padding-right: 3cm;
-                padding-top: 0cm;
+                padding-top: .25rem;
                 padding-bottom: 1.75cm;
                 font-size: 18px;
                 border: 1px solid silver;
@@ -92,6 +92,7 @@
                 background-color: whitesmoke;
                 line-height: 1cm;
                 }
+
 
        .background h6 {
          opacity: .6;
@@ -139,6 +140,8 @@
          text-align: center;
          font-weight: bold;
        }
+
+       
 
        /*---------------------------------------------------------------------------------------------------------------
                                                   Social Media Buttons
