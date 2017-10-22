@@ -2,6 +2,8 @@
     background-image: url("background101.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
     
     }
     
