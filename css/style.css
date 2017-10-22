@@ -26,6 +26,7 @@
 
     .topnav a  {
         float: right;
+        align-items: right;
         display: block;
         color: #f2f2f2;
         text-align: center;
