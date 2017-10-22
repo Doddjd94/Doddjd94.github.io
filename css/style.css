@@ -25,7 +25,7 @@
     }
 
     .topnav a  {
-        float: left;
+        float: right;
         display: block;
         color: #f2f2f2;
         text-align: center;
@@ -45,8 +45,8 @@
     }
        .background {
          text-align: center;
-         padding-left: 3cm;
-         padding-right: 3cm;
+         padding-left: 3.25rem;
+         padding-right: 3.25rem;
          padding-top: 0cm;
          padding-bottom: 1.75cm;
          font-size: 18px;
@@ -80,8 +80,8 @@
 
             .background2 {
                 text-align: center;
-                padding-left: 3cm;
-                padding-right: 3cm;
+                padding-left: 3.25rem;
+                padding-right: 3.25rem;
                 padding-top: .25rem;
                 padding-bottom: 1.75cm;
                 font-size: 18px;
@@ -129,6 +129,10 @@
 
       .list {
         text-align: left;
+      }
+
+      .list1 {
+        font-size: 1.20rem;
       }
 
       .archives{
