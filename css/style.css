@@ -179,3 +179,98 @@ img {
   align-items: center;
 }
 
+/* Laptops and Desktops */
+@media (min-width : 1025px) and (max-width : 1280px) {
+  /* The following css will be rendered if device width is less than 1280px */
+   
+  }
+   
+  /* Tablets (Landscape) */
+  @media (min-width : 769px) and (max-width : 1024px) {
+  /* The following css will be rendered if device width is less than 1024px */
+   
+  body {
+     position: relative;
+    aling:center;
+    margin: 0 0px 0 -25% !important;
+    width: auto;
+    text-align: left;
+    padding-right: 0px;
+   
+  }
+   
+  .post-body {
+  position: relative;
+    margin: 0 0px 0 0px !important;
+    width: 75%;
+    text-align: left;
+    padding-left: 0px;
+   
+    display: -webkit-flex; /* Safari */
+     -webkit-align-items: center; /* Safari 7.0+ */
+     display: flex;
+  }
+   
+  }
+   
+  /* Tablets (Portrait) */
+  @media (min-width : 641px) and (max-width : 768px) {
+  /* The following css will be rendered if device width is less than 768px */
+  body {
+     position: relative;
+    aling:center;
+    margin: 0 0px 0 -35% !important;
+    width: auto;
+    text-align: left;
+    padding-left: 0px;
+   
+  }
+   
+  .post-body {
+  position: relative;
+    margin: 0 0px 0 25px !important;
+    width: 60%;
+    text-align: left;
+    padding-left: 0px;
+   
+  }
+  }
+   
+  /* iPhones */
+  @media (min-width : 481px) and (max-width : 640px) {
+  /* The following css will be rendered if device width is less than 640xpx */
+  body {
+     position: relative;
+    aling:center;
+    margin: 0 0px 0 -300px !important;
+    width: auto;
+    text-align: left;
+    padding-left: 0px;
+   
+  }
+   
+  .post-body {
+  position: relative;
+    margin: 0 200px 0 0px !important;
+    width: 55%;
+    text-align: left;
+    padding-left: 0px;
+   
+  }
+  }
+   
+  /* Mobiles */
+  @media only screen and (max-width : 480px) {
+  /* The following css will be rendered if device width is less than 480px */
+   
+  }
+   
+  /* Small Mobiles */
+  @media only screen and (max-width : 320px) {
+  /* The following css will be rendered if device width is less than 320px */
+   
+  }
+   
+  /**************************************************************************/
+  /*****************************END RESPONSIVE*******************************/
+  /**************************************************************************/
