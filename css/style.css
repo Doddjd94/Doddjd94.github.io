@@ -1,3 +1,7 @@
+  html {
+    font-size: 16px;
+  }
+    
     body {
     background-image: url("background101.jpg");
     background-repeat: no-repeat;
@@ -13,7 +17,7 @@
       font-family: cursive;
       color: silver;
       float: left;
-      margin-left: 1.5rem;
+      margin-left: 1.5em;
     }
 
     .topnav .logo a:hover {
@@ -31,16 +35,16 @@
     .intro {
     text-align: center;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.25em;
     padding-top: 1.5cm;
-    padding-bottom: 5rem;
+    padding-bottom: 1.5em;
     line-height: .60cm;
     }  
 
     .topnav {
         background-color: #333333;
         overflow: hidden;  
-        margin-bottom: 15rem;      
+        margin-bottom: 3em;      
     }
 
     .topnav a  {
@@ -49,9 +53,9 @@
         display: block;
         color: whitesmoke;
         text-align: center;
-        padding: 14px 16px;
+        padding: 0.875em 1em;
         text-decoration: none;
-        font-size: 17px;
+        font-size: 1.0625em;
         
     }
 
@@ -69,12 +73,12 @@
          padding-left: 3.25rem;
          padding-right: 3.25rem;
          padding-top: 0cm;
-         padding-bottom: 1.75cm;
-         font-size: 18px;
+         padding-bottom: 1.75em;
+         font-size: 1.125em;
          border: 1px solid silver;
-         border-radius: 17px;
-         margin-left: 5cm;
-         margin-right: 5cm;
+         border-radius: 1.0625em;
+         margin-left: 5em;
+         margin-right: 5em;
          margin-top:;
          background-color: whitesmoke;
          line-height: 1cm;
@@ -85,12 +89,12 @@
             padding-left: 3cm;
             padding-right: 3cm;
             padding-top: 0cm;
-            padding-bottom: 1.75cm;
-            font-size: 18px;
+            padding-bottom: 1.75em;
+            font-size: 1.125em;
             border: 1px solid silver;
-            border-radius: 17px;
-            margin-left: 5cm;
-            margin-right: 5cm;
+            border-radius: 1.0625em;
+            margin-left: 5em;
+            margin-right: 5em;
             background-color: whitesmoke;
             line-height: 1cm;
             }
@@ -101,15 +105,15 @@
 
             .background2 {
                 text-align: center;
-                padding-left: 3.25rem;
-                padding-right: 3.25rem;
-                padding-top: .25rem;
-                padding-bottom: 1.75cm;
+                padding-left: 3.25em;
+                padding-right: 3.25em;
+                padding-top: .25em;
+                padding-bottom: 1.75em;
                 font-size: 18px;
                 border: 1px solid silver;
-                border-radius: 17px;
-                margin-left: 5cm;
-                margin-right: 5cm;
+                border-radius: 1.0625em;
+                margin-left: 5em;
+                margin-right: 5em;
                 background-color: whitesmoke;
                 line-height: 1cm;
                 }
@@ -130,7 +134,7 @@
      a {
         text-decoration: none;
         display: inline-block;
-        padding: 8px 16px;
+        padding: .5em 1em;
       }
     
       a:hover {
@@ -153,7 +157,7 @@
       }
 
       .list1 {
-        font-size: 1.20rem;
+        font-size: 1.20em;
       }
 
       .archives{
@@ -175,15 +179,78 @@ img {
 }
 
 .container Iframe {
-  width: 100%;
+  width: 65%;
+  height: 100%
   align-items: center;
 }
-           /*mobile*/
-@media only screen and (min-width: 480px) and (max-width:1,080px) {
-.background2 {
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+ }
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+
+ }
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+ }
+
+@media all and (max-width: 480px) {
+.background .background1 .background2 {
   width: 90%;
 }
+ }
+
+
+/* Portrait */
+@media screen and (orientation:portrait) { 
+
+ }
+/* Landscape */
+@media screen and (orientation:landscape) { 
+
+ }
+
+
+/* CSS for iPhone, iPad, and Retina Displays */
+
+/* Non-Retina */
+@media screen and (-webkit-max-device-pixel-ratio: 1) {
 
 }
 
+/* Retina */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5) {
 
+}
+
+/* iPhone Portrait */
+@media screen and (max-device-width: 480px) and (orientation:portrait) {
+
+} 
+
+/* iPhone Landscape */
+@media screen and (max-device-width: 480px) and (orientation:landscape) {
+
+}
+
+/* iPad Portrait */
+@media screen and (min-device-width: 481px) and (orientation:portrait) {
+
+}
+
+/* iPad Landscape */
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+
+}
