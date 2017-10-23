@@ -7,6 +7,21 @@
     text-align: center;
     
     }
+
+    .logo {
+      font-weight: bold;
+      font-family: cursive;
+      color: silver;
+      float: left;
+      margin-left: 1.5rem;
+    }
+
+    .topnav .logo a:hover {
+    background-color: #333;
+    color: whitesmoke;
+
+
+    }
     
 
     .footer {
@@ -32,7 +47,7 @@
         float: right;
         align-items: right;
         display: block;
-        color: #f2f2f2;
+        color: whitesmoke;
         text-align: center;
         padding: 14px 16px;
         text-decoration: none;
