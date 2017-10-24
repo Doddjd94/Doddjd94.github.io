@@ -183,13 +183,3 @@ img {
   height: 100%
   align-items: center;
 }
- 
-#ddmenu div.menu-icon {
-  display:none; 
-}
-/*styles for mobile*/
-@media only screen and (max-width: 480px) {
-  #ddmenu div.menu-icon {
-    display:; 
-  }
-}
