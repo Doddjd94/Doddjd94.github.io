@@ -183,3 +183,10 @@ img {
   height: 100%
   align-items: center;
 }
+
+@media screen (max-width: 768) {
+  .topnav a {
+    padding: 1.875em 2em;
+  }
+}
+
