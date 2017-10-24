@@ -184,9 +184,10 @@ img {
   align-items: center;
 }
 
-@media screen (max-width: 768) {
-  .topnav a {
-    padding: 1.875em 2em;
-  }
+h6 {
+  line-height: 1;
 }
 
+@media only screen
+and (min-width: 320px)
+and (max-width: 480px){}
