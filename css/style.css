@@ -157,7 +157,7 @@
       }
 
       .list1 {
-        font-size: 1.20em;
+        font-size: 1em;
       }
 
       .archives{
@@ -168,6 +168,14 @@
        .h3 {
          text-align: center;
          font-weight: bold;
+       }
+
+       .elephant a {
+         padding: 0;
+       }
+       .elephant a:hover {
+         background-color: whitesmoke;
+         color: green;
        }
         
        /*--------------------------------------------------------------------------------------------------------------
