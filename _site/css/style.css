@@ -1,6 +1,25 @@
   html {
     font-size: 16px;
   }
+
+  #myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: red; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
     
     body {
     background-image: url("background101.jpg");
@@ -70,8 +89,8 @@
     }
        .background {
          text-align: center;
-         padding-left: 3.25rem;
-         padding-right: 3.25rem;
+         padding-left: 6.25rem;
+         padding-right: 6.25rem;
          padding-top: 0cm;
          padding-bottom: 1.75em;
          font-size: 1.125em;
@@ -105,8 +124,8 @@
 
             .background2 {
                 text-align: center;
-                padding-left: 3.25em;
-                padding-right: 3.25em;
+                padding-left: 6.25em;
+                padding-right: 6.25em;
                 padding-top: .25em;
                 padding-bottom: 1.75em;
                 font-size: 18px;
