@@ -245,3 +245,20 @@ h6 {
     text-align: left;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .backgound2 {
+    text-align: center;
+    padding-left: 0em;
+    padding-right: 0em;
+    padding-top: .25em;
+    padding-bottom: 1.75em;
+    font-size: 18px;
+    border: 1px solid silver;
+    border-radius: 1.0625em;
+    margin-left: 0em;
+    margin-right: 0em;
+    background-color: whitesmoke;
+    line-height: 1cm;
+  }
+}
